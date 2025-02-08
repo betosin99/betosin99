@@ -1,19 +1,54 @@
 /* Importing Font Aweseome*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
-/* Page styling */
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1em;
-    padding: 1em;
-    min-height: 80vh;
-    background-color: cornsilk;
-    display: flex
-}
+/* Page Styling */
 
-h3 {
-    text-align: center;
-}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    background-color: cornsilk;
+    color: #333;
+    font-size: 20px;
+    }
+
+    #header {
+        color: #fff;
+        padding: o.3em;
+        margin: auto;
+        box-shadow: #333;
+        font-weight: bolder;
+    }
+    
+    .nav-list {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        box-shadow: #333;
+        justify-content: center;
+    }
+
+    .nav-list a {
+        padding: 18px;
+        margin-right: 20px;
+        border: 1px solid black;
+        border-radius: 1em;
+        background-color: gainsboro;
+        text-decoration: none;
+        color: black
+        }
+
+.nav-list a:hover {
+        background-color: #333;
+        color: #fff;
+        }
+
+.nav-list a.active {
+        background-color: #333;
+        color: #fff;
+        }
 
 /* Form styling */
 .form-container {
@@ -25,8 +60,8 @@ h3 {
     border: 1px solid;
     border-color: aliceblue;
     box-shadow: 0 0 10px;
-    justify-content: center;
-    margin-top: 4em;
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 .signup-form {
@@ -77,10 +112,10 @@ h3 {
 
 .form-group {
     flex: 1;
-    margin-bottom: 15px;
+    margin-bottom: 10x;
 }
 
-/* Submit b */
+/* Submit Button*/
 button {
     width: 80%;
     padding: 1em;
@@ -94,4 +129,16 @@ button {
 
 button:hover {
     background: sandybrown;
+}
+
+footer, .fa-solid {
+    text-align: center;
+    font-size: larger;
+}
+
+h3 {
+    margin-left: 20%;
+    font-size: 1em;
+    color: #333;
+    margin-top: 2em;
 }
