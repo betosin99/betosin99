@@ -93,6 +93,7 @@ color: #fff;
     margin-bottom: 1rem;
     margin-left: 45%;
     align-items: center;
+    background-color: #fff;
 }
 
 .profile-audio {
@@ -116,3 +117,9 @@ color: #fff;
     border-radius: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+iframe {
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
