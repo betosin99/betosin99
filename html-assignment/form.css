@@ -142,3 +142,68 @@ h3 {
     color: #333;
     margin-top: 2em;
 }
+
+/*Responsiveness for mobile & tablet*/
+@media screen and (max-width: 768px) { 
+    .form-container {
+        margin-left: 10%;
+        max-width: 80%;
+    }
+
+    .form-group input, .form-group select {
+        width: 90%; 
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    h3 {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-container {
+        margin-left: 5%;
+        max-width: 90%;
+        padding: 15px; 
+    }
+
+    .signup-form h1 {
+        font-size: 1.5em; 
+    }
+
+    .signup-form p {
+        font-size: 1em;
+    }
+
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        padding: 0.5em; 
+    }
+
+    .nav-list a {
+        margin: 0.5em 0;
+    }
+
+    button {
+        width: 100%; 
+        font-size: 1em;
+    }
+
+    h3 {
+        margin-left: 5%;
+        font-size: 0.9em;
+    }
+}

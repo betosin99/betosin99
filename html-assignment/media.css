@@ -85,15 +85,12 @@ color: #fff;
 }
 
 #profile img {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #007BFF;
-    border-radius: 50%;
+    width: 400px;
+    height: 300px;
     object-fit: contain;
-    margin-bottom: 1rem;
-    margin-left: 45%;
+    margin-bottom: 10%;
     align-items: center;
-    background-color: #fff;
+    justify-content: center;
 }
 
 .profile-audio {
@@ -118,13 +115,4 @@ color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-iframe {
-    margin-top: 1em;
-    padding: 10%;
-    border: 1px solid black;
-    border-radius: 1em;
-    box-shadow: 0, 0, 4;
-}
 
